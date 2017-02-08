@@ -5,14 +5,15 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>13.2.0</version>
+		<version>13.2.1</version>
 		<relativePath />
 	</parent>
 
+	<groupId>sc.fiji</groupId>
 	<artifactId>Simple_Neurite_Tracer</artifactId>
 	<version>3.1.1-SNAPSHOT</version>
 
-	<name>plugins/Simple_Neurite_Tracer.jar</name>
+	<name>Simple Neurite Tracer</name>
 	<description >The ImageJ framework for semi-automated tracing of neurons and other tube-like structures.</description>
 	<url>http://imagej.net/Simple_Neurite_Tracer</url>
 	<inceptionYear>2010</inceptionYear>
@@ -22,8 +23,8 @@
 	</organization>
 	<licenses>
 		<license>
-			<name>GPL3</name>
-			<url>https://www.gnu.org/licenses/gpl-3.0.en.html/</url>
+			<name>GNU General Public License v3+</name>
+			<url>http://www.gnu.org/licenses/gpl.html</url>
 		</license>
 	</licenses>
 
@@ -101,8 +102,9 @@
 	</ciManagement>
 
 	<properties>
-		<license.licenseName>GPL_3</license.licenseName>
-		<license.copyrightOwners>SNT Developers</license.copyrightOwners>
+		<license.licenseName>gpl_v3</license.licenseName>
+		<license.copyrightOwners>Fiji developers.</license.copyrightOwners>
+		<license.projectName>Fiji distribution of ImageJ for the life sciences.</license.projectName>
 	</properties>
 
 	<repositories>
