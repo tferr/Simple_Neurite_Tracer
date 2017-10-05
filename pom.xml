@@ -5,7 +5,11 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
+<<<<<<< HEAD
 		<version>19.2.0</version>
+=======
+		<version>17.1.1</version>
+>>>>>>> POM: update pom-scijava parent to 17.1.1
 		<relativePath />
 	</parent>
 
